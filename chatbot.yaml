@@ -1,9 +1,11 @@
-name: zb-cailapub
+# Название проекта
+name: echo-bot
 
+# Точка входа
 entryPoint: main.sc
 
-botEngine: v2
-language: ru
+botEngine: v2 # версия диалогового движка
+language: ru # язык бота
 
 tests:
   include:
